@@ -1,24 +1,18 @@
-# README
+# Spina CSM
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Project setup:
 
-Things you may want to cover:
+```bash
+rails new spina_csm -j esbuild -c tailwind -d postgresql
+```
 
-* Ruby version
+### Add gems:
 
-* System dependencies
+- foreman
+- spina
 
-* Configuration
+### Spina setup:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+rails g spina:install
+```
