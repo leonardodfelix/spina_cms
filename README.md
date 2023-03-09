@@ -15,4 +15,10 @@ rails new spina_csm -j esbuild -c tailwind -d postgresql
 
 ```bash
 rails g spina:install
+rails active_storage:install
+rails db:migrate
 ```
+
+[Spina docs](https://spinacms.com/docs)
+
+[Spina github](https://github.com/spinacms/spina)
